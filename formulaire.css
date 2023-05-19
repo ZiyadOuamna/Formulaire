@@ -1,0 +1,117 @@
+body{
+    background-color: rgb(40, 92, 87);
+}
+form{
+   margin: 30px;
+}
+.head{
+    text-align: center;
+    border: 2px solid white;
+    background-image: linear-gradient(rgba(0, 247, 255, 0.5),rgba(0, 255, 64, 0.5));
+    border-radius: 5px;
+    margin: 0px 30px ;
+}
+h1{
+    text-shadow: -1.5px -1.5px rgba(255, 255, 255, 0.877);
+}
+h4{
+    opacity: 0.5;
+}
+fieldset{
+    
+    border:2px solid  white;
+    border-radius: 5px;
+    margin-top: 20px;
+    height: 300px;
+    justify-content: space-between;
+}
+img{
+    position: relative;
+    left: 80%;
+    bottom:12rem;
+}
+.fieldset2{
+  justify-content: space-between;
+}
+.infos{
+    margin-left: 0rem;
+  
+}
+.info{
+    margin-top: 20px;
+    float: right;
+    margin-right: 85%;
+
+}
+.input{
+    width: 50%;
+    margin-left: 20%;
+    margin-right: 37%;
+    margin-top: -22px;
+    
+}
+
+legend{
+    font-size: 25px;
+    font-weight: bold;
+}
+label{
+    font-weight: bold;
+}
+.choix{
+    font-weight: lighter;
+    word-spacing: 10px;
+
+}
+
+
+.choix2{
+    font-weight: lighter;
+    
+    
+}
+.checkbox2{
+    margin-left: 300px;
+}
+.checkbox{
+    font-weight: lighter;
+    margin-left: 40%;
+    text-align: center;
+    
+    
+}
+.titre{ 
+    
+    margin-top: 20px;
+    float:right;
+    margin-right:85%;
+}
+
+textarea{
+    width: 100%;
+}
+.footer{
+    text-align:center;
+    margin-top: 30px;
+    word-spacing: 2cm;
+}
+.inscrit{
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+    border-radius: 2rem;
+    padding: 5px;
+}
+.inscrit:hover{
+    opacity: 0.5;
+}
+.reset{
+    background-color: black;
+    color: white;
+    opacity: 0.9;
+    border-radius: 2rem;
+    padding: 5px;
+}
+.reset:hover{
+    opacity: 0.5;
+}

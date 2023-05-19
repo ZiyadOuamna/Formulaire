@@ -1,0 +1,80 @@
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="formulaire.css">
+</head>
+<body>
+    <div class="head">
+        <h1>Pique-nique de fin d'année</h1>
+        <h4>Inscription</h4>
+        <h5>by ziyad ouamna</h5>
+
+    </div>
+    <form action="">
+        <fieldset>
+
+            <legend>Je m'identifie</legend>
+           
+                <div class="infos">
+                    <label class="info" for="monprenom">Mon prenom : </label>
+                    <input class="input" type="text" name="monprenom" ><br><br>
+                    <label class="info" for="classe">Ma classe : </label>
+                    <select  class="input" name="classe" id="" >
+                        <optgroup label="MCW">
+                            <option value="">MCW1</option>
+                            <option value="">MCW2</option>
+                        </optgroup>
+                        <optgroup label="GPME">
+                            <option value="">GPME1</option>
+                            <option value="">GPME2</option>
+                        </optgroup>
+                    </select><br><br>
+
+                    <label class="info" for="email"> Mon E-mail : </label>
+                    <input class="input" type="email" name="email" placeholder="       email@gmail.com"><br><br>
+                    <label class="info" for="password"> Mon mot de passe : </label>
+                    <input class="input" type="password" name="password" placeholder="          mot de passe ">
+                </div>
+                <img src="formulaire.png" alt="">
+        </fieldset>
+        <fieldset class="fieldset2">
+
+            <legend >J'informe</legend>
+            <label class="titre" for="">Mes disponibilites : </label>
+            <input class="checkbox" type="checkbox">
+            <label class="choix" for="">Lundi 10 juin </label>
+            <input type="checkbox">
+            <label class="choix" >Mardi 11 juin</label>
+            <input type="checkbox">
+            <label class="choix" >Mercredi 12 juin</label><br><br>
+            
+            
+            <!--////////////////////////////////////////////-->
+            
+            <label class="titre" for="aaa">J'apportrai... </label>
+            <input class="checkbox2" name="aaa" type="radio">
+            <label class="choix2" for="">Une entree </label>
+            <input class="checkbox2" name="aaa" type="radio">
+            <label class="choix2" for="">Un plat</label>
+            <input class="checkbox2" name="aaa" type="radio">
+            <label class="choix2" for="">Un dessert</label><br><br>
+
+            <!--///////////////////////////////////////////////-->
+            
+            <label class="titre" for="commentaire">Je laisse un message (facultatif) : </label><br><br>
+            <textarea name="commenjtaire" id="" cols="80" rows="2" placeholder="Maximun 160 carateres !"></textarea>
+        
+        </fieldset>
+
+            <!--/////////////////////////////////////////////////////////`-->
+        <div class="footer">
+            <input class="inscrit" type="submit" value="JE M'INSCRIT">
+            <input class="reset" type="reset" value="JE REINITIALISE LE FORMULAIRE">
+        </div> 
+        </form>
+</body>
+</html>
